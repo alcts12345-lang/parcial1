@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #cfe0ea;
+}
+
+.contenedor {
+    width: 800px;
+    margin: auto;
+    border: 2px solid #333;
+    background: #e6eef5;
+}
+/* HEADER */
+.header {
+    background: linear-gradient(#2f5d8a, #1d3f66);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.contenido {
+    display: flex;
+    padding: 10px;
+    color: #1d3f66;
+}
+
+/* PANEL IZQUIERDO */
+.panel-izq {
+    width: 200px;
+    border: 1px solid #999;
+    padding: 10px;
+    background: #dfe8f0;
+}
+
+.panel-izq h3 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.panel-izq button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    background: linear-gradient( #ffffff, #0d56a0);
+    border: 1px solid #777;
+    cursor: pointer;
+}
+
+.panel-der {
+    flex: 10;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.input-ano {
+    width: 50px;
+    margin-bottom: 10px;
+    background-color: #aed1e6;
+}
+
+textarea {
+    width: 90%;
+    height: 80px;
+    background-color:#aed1e6;
+}
+
+.popup {
+    width: 250px;
+    border: 2px solid #030303d0;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.popup-header {
+    background:black;
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.popup p {
+    padding: 10px;
+}
+
+.botones {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.botones button {
+    margin: 5px;
+    padding: 5px 15px;
+}
+
+.footer {
+    text-align: right;
+    padding: 10px;
+}

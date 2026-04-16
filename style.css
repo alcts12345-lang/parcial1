@@ -37,7 +37,6 @@ h2 {
     padding: 8px;
 }
 
-/* Formulario */
 .formulario {
     color: #14578d;
     display: grid;
@@ -91,4 +90,6 @@ button {
     background: #163f61;
     color: white;
     cursor: pointer;
+
 }
+
